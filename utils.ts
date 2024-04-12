@@ -9,6 +9,8 @@ export interface IBioStructure {
   ];
 }
 
+export let bios: IBioStructure;
+
 export async function initializePage(): Promise<any> {
   getPaletteVars("https://raw.githubusercontent.com/catppuccin/palette/main/palette.json").then(
     async (data) => {
@@ -35,6 +37,18 @@ export async function getPaletteVars(uri: string): Promise<any> {
     }
 
     return paletteVars;
+  } else {
+    return Promise.reject();
+  }
+}
+
+export async function getBioInfo(dept: string): Promise<any> {
+  const response = await fetch("/bios/data/addams/bios.json", { cache: "no-store" });
+
+  const data: IBioStructure = await response.json();
+  if (response.ok) {
+    bios = data;
+    return data[dept];
   } else {
     return Promise.reject();
   }

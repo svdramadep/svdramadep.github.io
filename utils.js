@@ -7,6 +7,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+export let bios;
 export function initializePage() {
     return __awaiter(this, void 0, void 0, function* () {
         getPaletteVars("https://raw.githubusercontent.com/catppuccin/palette/main/palette.json").then((data) => __awaiter(this, void 0, void 0, function* () {
@@ -29,6 +30,19 @@ export function getPaletteVars(uri) {
                 paletteVars[`--${key}-hex`] = themeColors[key]["hex"];
             }
             return paletteVars;
+        }
+        else {
+            return Promise.reject();
+        }
+    });
+}
+export function getBioInfo(dept) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const response = yield fetch("/bios/data/addams/bios.json", { cache: "no-store" });
+        const data = yield response.json();
+        if (response.ok) {
+            bios = data;
+            return data[dept];
         }
         else {
             return Promise.reject();
