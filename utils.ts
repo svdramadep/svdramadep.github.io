@@ -1,18 +1,26 @@
-export interface IBioStructure {
-  [dept: string]: [
-    {
-      name: string;
-      pronouns?: string;
-      role: string;
-      bio: string;
-    }
-  ];
+export interface IDataStructure {
+  order: {
+    actor: string[]
+    tech: string[]
+  },
+  people: {
+    [id: string]: IBioStructure
+  }
 }
 
-export let bios: IBioStructure;
+export interface IBioStructure {
+  name: string;
+  pronouns: string;
+  role: string | {actor: string, tech: string};
+  bio: string | {actor: string, tech: string};
+}
+
+export let peopleInfo: IDataStructure;
 
 export async function initializePage(): Promise<any> {
-  getPaletteVars("https://raw.githubusercontent.com/catppuccin/palette/main/palette.json").then(
+  getPaletteVars(
+    "https://raw.githubusercontent.com/catppuccin/palette/main/palette.json"
+  ).then(
     async (data) => {
       for (let key in data) {
         document.documentElement.style.setProperty(key, data[key]);
@@ -42,13 +50,15 @@ export async function getPaletteVars(uri: string): Promise<any> {
   }
 }
 
-export async function getBioInfo(dept: string): Promise<any> {
-  const response = await fetch("/bios/data/addams/bios.json", { cache: "no-store" });
+export async function loadBioInfo(): Promise<any> {
+  const response = await fetch("/bios/data/addams/data.json", {
+    cache: "no-store",
+  });
 
-  const data: IBioStructure = await response.json();
+  const data: IDataStructure = await response.json();
   if (response.ok) {
-    bios = data;
-    return data[dept];
+    peopleInfo = data;
+    return Promise.resolve(data);
   } else {
     return Promise.reject();
   }

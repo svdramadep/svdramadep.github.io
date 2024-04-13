@@ -1,4 +1,9 @@
-import { bios, getBioInfo, initializePage } from "../utils.js";
+import {
+  loadBioInfo,
+  initializePage,
+  IBioStructure,
+  peopleInfo,
+} from "../utils.js";
 
 let peopleList: HTMLDivElement;
 
@@ -7,7 +12,7 @@ window.onload = () => {
 
   initializePage();
 
-  getBioInfo("actors").then(async () => {
+  loadBioInfo().then(async () => {
     parsePeopleEntries();
   });
 };
@@ -15,17 +20,24 @@ window.onload = () => {
 function parsePeopleEntries() {
   const personTemplate = peopleList.children[0] as HTMLDivElement;
 
-  bios["actors"].forEach((element) => {
+  peopleInfo.order.actor.forEach((person) => {
     let curEntry: HTMLElement;
 
     curEntry = personTemplate.cloneNode(true) as HTMLDivElement;
     (
       curEntry.getElementsByClassName("headshot").item(0) as HTMLImageElement
-    ).src = `./headshots/${element.name.toLowerCase().replace(" ", "")}.jpg`;
-    (
-      curEntry.getElementsByClassName("person_name").item(0) ??
-      document.createElement("div")
-    ).textContent = element.name;
+    ).src = `./headshots/${person}.jpg`;
+
+    for (let key in peopleInfo.people[person]) {
+      let value = peopleInfo.people[person][key as keyof IBioStructure];
+      console.log(`${typeof value}, ${person}`);
+      (
+        curEntry.getElementsByClassName(`person_${key}`).item(0) as HTMLElement
+      ).textContent =
+        typeof value === "object"
+          ? value["actor" as keyof typeof value]
+          : value;
+    }
 
     peopleList.lastElementChild?.after(curEntry);
   });
