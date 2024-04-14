@@ -5,10 +5,20 @@ import {
   peopleInfo,
 } from "../utils.js";
 
-let peopleList: HTMLDivElement;
+let departmentMode = "actor";
+let peopleListElement: HTMLDivElement;
 
 window.onload = () => {
-  peopleList = document.getElementById("people_list") as HTMLDivElement;
+  peopleListElement = document.getElementById("people_list") as HTMLDivElement;
+  const deptOptionInputElements = document.getElementsByClassName(
+    "dept_option"
+  ) as HTMLCollectionOf<HTMLInputElement>;
+
+  for (let i = 0; i < deptOptionInputElements.length; i++) {
+    (deptOptionInputElements.item(i) ?? new HTMLInputElement()).onclick = (
+      ev
+    ) => handleDepartmentClick(ev.target as HTMLInputElement);
+  }
 
   initializePage();
 
@@ -18,29 +28,48 @@ window.onload = () => {
 };
 
 function parsePeopleEntries() {
-  const personTemplate = peopleList.children[0] as HTMLDivElement;
+  const personTemplate = peopleListElement.children[0] as HTMLDivElement;
+  peopleListElement.textContent = "";
+  peopleListElement.appendChild(personTemplate);
 
-  peopleInfo.order.actor.forEach((person) => {
-    let curEntry: HTMLElement;
+  peopleInfo.order[departmentMode as keyof typeof peopleInfo.order].forEach(
+    (person) => {
+      let curEntry: HTMLElement;
 
-    curEntry = personTemplate.cloneNode(true) as HTMLDivElement;
-    (
-      curEntry.getElementsByClassName("headshot").item(0) as HTMLImageElement
-    ).src = `./headshots/${person}.jpg`;
-
-    for (let key in peopleInfo.people[person]) {
-      let value = peopleInfo.people[person][key as keyof IBioStructure];
-      console.log(`${typeof value}, ${person}`);
+      curEntry = personTemplate.cloneNode(true) as HTMLDivElement;
+      curEntry.style.display = "flex";
       (
-        curEntry.getElementsByClassName(`person_${key}`).item(0) as HTMLElement
-      ).textContent =
-        typeof value === "object"
-          ? value["actor" as keyof typeof value]
-          : value;
+        curEntry.getElementsByClassName("headshot").item(0) as HTMLImageElement
+      ).src = `./headshots/${person}.jpg`;
+
+      for (let key in peopleInfo.people[person]) {
+        let value = peopleInfo.people[person][key as keyof IBioStructure];
+        console.log(`${typeof value}, ${person}`);
+        (
+          curEntry
+            .getElementsByClassName(`person_${key}`)
+            .item(0) as HTMLElement
+        ).textContent =
+          typeof value === "object"
+            ? value[departmentMode as keyof typeof value]
+            : value;
+      }
+
+      peopleListElement.appendChild(curEntry);
     }
+  );
+}
 
-    peopleList.lastElementChild?.after(curEntry);
-  });
+function handleDepartmentClick(inputPressed: HTMLElement) {
+  if (inputPressed.previousElementSibling?.classList.contains("selected"))
+    return;
+  let selectedThingies = document.getElementsByClassName("selected");
+  for (let i = 0; i < selectedThingies.length; i++) {
+    selectedThingies.item(i)?.classList.remove("selected");
+  }
 
-  personTemplate.remove();
+  departmentMode = inputPressed.id.substring(5);
+  parsePeopleEntries();
+
+  inputPressed.previousElementSibling?.classList.add("selected");
 }
