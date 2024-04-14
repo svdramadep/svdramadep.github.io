@@ -5,7 +5,7 @@ import {
   peopleInfo,
 } from "../utils.js";
 
-let departmentMode = "actor";
+let departmentMode = "cast";
 let peopleListElement: HTMLDivElement;
 
 window.onload = () => {

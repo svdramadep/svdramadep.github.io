@@ -8,7 +8,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 import { loadBioInfo, initializePage, peopleInfo, } from "../utils.js";
-let departmentMode = "actor";
+let departmentMode = "cast";
 let peopleListElement;
 window.onload = () => {
     var _a;

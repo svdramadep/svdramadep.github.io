@@ -1,7 +1,7 @@
 export interface IDataStructure {
   order: {
-    actor: string[]
-    tech: string[]
+    cast: string[]
+    crew: string[]
   },
   people: {
     [id: string]: IBioStructure
@@ -11,8 +11,8 @@ export interface IDataStructure {
 export interface IBioStructure {
   name: string;
   pronouns: string;
-  role: string | {actor: string, tech: string};
-  bio: string | {actor: string, tech: string};
+  role: string | {cast: string, crew: string};
+  bio: string | {cast: string, crew: string};
 }
 
 export let peopleInfo: IDataStructure;
