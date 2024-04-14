@@ -119,8 +119,14 @@
     },
     "avakreer": {
       "name": "Ava Kreer",
-      "role": "(Grandma Addams and Dance Corps)",
-      "bio": "Ava Kreer is a current senior at Scotts Valley High School. This is her third year in, and eighth show with the department. She is overjoyed to be ending her highschool theater career playing the role of Grandma Addams, alongside the amazing Tisa Sholohkman, as well as the role of Bar Wench ancestor on her off nights! Previously, Ava has been involved in Clue!, Urinetown, The Play That Goes Wrong, Our Place, Something Rotten, and Rumors. Most recently, she has performed as Chris Goreman in SVHS' Fall Play Rumors. Along with acting in the shows, Ava is grateful to hold the role of Student Producer (see other bio). She would like to thank her family for supporting her throughout all her productions, Sydney Clark, Namiko Miller, Audrey Lewerenz, Luke Thornley and Jackie Kannegaard for their delicious chili, her lovely car Jerry for not breaking down (yet), and every cast and crew member participating in the production. She would like to make a special thank you to Kendra Annika Gail Kannegaard Thornley for consistently cultivating the most welcoming space within the department, and for being her mentor, teacher, and friend. Without all of these things and people, you would not be seeing the spectacular production you are seeing today. She hopes you all enjoy the show and return to see the other amazing cast!"
+      "role": {
+        "actor": "(Grandma Addams and Dance Corps)",
+        "tech": "(Student Producer)"
+      },
+      "bio": {
+        "actor": "Ava Kreer is a current senior at Scotts Valley High School. This is her third year in, and eighth show with the department. She is overjoyed to be ending her highschool theater career playing the role of Grandma Addams, alongside the amazing Tisa Sholohkman, as well as the role of Bar Wench ancestor on her off nights! Previously, Ava has been involved in Clue!, Urinetown, The Play That Goes Wrong, Our Place, Something Rotten, and Rumors. Most recently, she has performed as Chris Goreman in SVHS' Fall Play Rumors. Along with acting in the shows, Ava is grateful to hold the role of Student Producer (see other bio). She would like to thank her family for supporting her throughout all her productions, Sydney Clark, Namiko Miller, Audrey Lewerenz, Luke Thornley and Jackie Kannegaard for their delicious chili, her lovely car Jerry for not breaking down (yet), and every cast and crew member participating in the production. She would like to make a special thank you to Kendra Annika Gail Kannegaard Thornley for consistently cultivating the most welcoming space within the department, and for being her mentor, teacher, and friend. Without all of these things and people, you would not be seeing the spectacular production you are seeing today. She hopes you all enjoy the show and return to see the other amazing cast!",
+        "tech": "Ava Kreer is a current senior at Scotts Valley High School. This is her third year in, and eighth show with the department. For the past four shows, Ava has worked as the student producer for the department. Though she is sad to be leaving the department at the end of this show, she could not be more appreciative and grateful to be given this opportunity within the community. She would like to thank Mrs. K for having faith in her to fulfill the requirements of this position, and teaching her the ways of the professional theater world. Along with being the student producer, Ava also acts in the show as Grandma Addams and Dance Corps (see other bio). She would like to thank everyone for coming to support the show, and the numerous newspapers she reached out to who have agreed to promote our show! Additionally, she would like to thank V Nivelle for carrying on the role of student producer after she graduates, the position could not be in better hands."
+      } 
     },
     "tisasholokhman": {
       "name": "Tisa Sholokhman",
@@ -146,7 +152,7 @@
     "trinitystenton": {
       "name": "Trinity Stenton",
       "role": "(Alice Beineke, Dance Corps)",
-      "bio": "This is Trinity Stenton and she is a Senior. The she plays in this production is Alice Beineke and also dance corps. This is her last show at Scotts Salley High and she is so excited to be involved in this production. She would like to thank the morticia's for looking so fine with their pixar mom curves."
+      "bio": "This is Trinity Stenton and she is a senior. She plays  Alice Beineke and she is a member of the dance core. This is her last show at Scotts Valley High and she is so excited to be involved in this production. She would like to thank Mason for having her revise this bio and Cheyenne for giving her hugs backstage."
     },
     "jackpeterson": {
       "name": "Jack Peterson",
