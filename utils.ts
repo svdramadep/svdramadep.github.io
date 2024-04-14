@@ -50,7 +50,7 @@ export async function getPaletteVars(uri: string): Promise<any> {
   }
 }
 
-export async function loadBioInfo(): Promise<any> {
+export async function loadPeopleInfo(): Promise<any> {
   const response = await fetch("/bios/data/addams/data.json", {
     cache: "no-store",
   });

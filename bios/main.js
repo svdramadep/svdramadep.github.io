@@ -7,7 +7,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { loadBioInfo, initializePage, peopleInfo, } from "../utils.js";
+import { loadPeopleInfo, initializePage, peopleInfo, } from "../utils.js";
 let departmentMode = "cast";
 let peopleListElement;
 window.onload = () => {
@@ -18,7 +18,7 @@ window.onload = () => {
         ((_a = deptOptionInputElements.item(i)) !== null && _a !== void 0 ? _a : new HTMLInputElement()).onclick = (ev) => handleDepartmentClick(ev.target);
     }
     initializePage();
-    loadBioInfo().then(() => __awaiter(void 0, void 0, void 0, function* () {
+    loadPeopleInfo().then(() => __awaiter(void 0, void 0, void 0, function* () {
         parsePeopleEntries();
     }));
 };

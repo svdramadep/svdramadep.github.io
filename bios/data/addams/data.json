@@ -1,38 +1,38 @@
 {
   "order": {
     "cast": [
-      "kavinpugazhenthi",
       "miloanima",
-      "sydneyclark",
+      "kavinpugazhenthi",
       "chloekitch",
+      "sydneyclark",
       "emmabrooke",
-      "rachelecasagrande",
       "masonfohl",
+      "rachelecasagrande",
       "yanborodaenko",
       "danidunn",
       "vnivelle",
       "violetpalmer",
       "katedoherty",
+      "avakreer",
+      "tisasholokhman",
+      "willscree",
+      "raynev",
       "lillianlchapman",
       "trinitystenton",
       "jackpeterson",
       "kylegoode",
-      "willscree",
-      "raynev",
-      "avakreer",
-      "tisasholokhman",
       "namikomiller",
-      "aaronalejandro",
-      "evadewitt",
       "baliwelch",
-      "haydibowsher",
+      "evadewitt",
+      "aaronalejandro",
+      "jaedenchamberlain",
+      "laureljames",
       "liliabrunner",
       "gavincanderle",
-      "jaedenchamberlain",
-      "phoenixhardison",
-      "laureljames",
       "janessakovacevich",
-      "emmaoldham"
+      "emmaoldham",
+      "phoenixhardison",
+      "haydibowsher"
     ],
     "crew": [
       "kendrakannegaardthornley",
@@ -40,17 +40,19 @@
       "atlashinkle",
       "leareed",
       "sydneyclark",
-      "kyanlundberg",
+      "ianmchatton",
       "lyraalers",
       "cielschnell",
       "alexmoriarty",
-      "gageherendeen",
-      "lukethornley",
-      "cooperherendeen",
-      "audreylewerenz",
+      "kyanlundberg",
+      "avakreer",
       "violetadauksa",
+      "audreylewerenz",
+      "betwixtjonescruz",
       "emmarozeboom",
-      "samanthawarner"
+      "samanthawarner",
+      "cooperherendeen",
+      "gageherendeen"
     ]
   },
   "people": {
@@ -71,7 +73,9 @@
       "bio": "Kavin Pugazhenthi is a senior and this is his ninth and final production with the Scotts Valley High School Theater Department. You may have previously seen him as a wee little freshman in Almost, Maine, or in, most recently Rumors. This is his first foray into directing theater. He would like to thank the incredible people who have supported and inspired him along the way:  Chloe Kitch, V Nivelle, Kay Labbe, Todd Hoffman, Cooper and Gage Herrendeen, Colburn Ryan, Jack and Ian McHatton and Mrs. Kannegaard. In addition, he thanks Asher Hildebrand. Thank you Asher. Enjoy the show, lets be bad!"
     },
     "chloekitch": {
-      "name": "Chloe Kitch"
+      "name": "Chloe Kitch",
+      "role": "(Morticia and Ensemble)",
+      "bio": "Chloe is a jr. at Scotts Valley High. She has been performing in the department since her freshman year. Some of her past shows include;  Clue, Urinetown, The Play that Goes Wrong, Something Rotten, and Rumors. Addams Family will be her overall 8th show with the drama department. She is very thankful to all who have contributed to making this show so spectacular. She is thankful to Mrs. K for all her hard work and understanding in times of chaos.  Chloe wants to also thank her double cast Sydney for being so supportive and compassionate , as this is Chloe's first lead in a musical and it’s led to a lot of nerves! She also thanks Kavin for being a cutie putootie. Chloe thanks her mum for bringing her snackies during hell week and hopefully coming to see many many many shows. Chloe hopes that everyone enjoys the show!"
     },
     "sydneyclark": {
       "name": "Sydney Clark",
@@ -128,13 +132,13 @@
     "avakreer": {
       "name": "Ava Kreer",
       "role": {
-        "actor": "(Grandma Addams and Dance Corps)",
-        "tech": "(Student Producer)"
+        "cast": "(Grandma Addams and Dance Corps)",
+        "crew": "(Student Producer)"
       },
       "bio": {
-        "actor": "Ava Kreer is a current senior at Scotts Valley High School. This is her third year in, and eighth show with the department. She is overjoyed to be ending her highschool theater career playing the role of Grandma Addams, alongside the amazing Tisa Sholohkman, as well as the role of Bar Wench ancestor on her off nights! Previously, Ava has been involved in Clue!, Urinetown, The Play That Goes Wrong, Our Place, Something Rotten, and Rumors. Most recently, she has performed as Chris Goreman in SVHS' Fall Play Rumors. Along with acting in the shows, Ava is grateful to hold the role of Student Producer (see other bio). She would like to thank her family for supporting her throughout all her productions, Sydney Clark, Namiko Miller, Audrey Lewerenz, Luke Thornley and Jackie Kannegaard for their delicious chili, her lovely car Jerry for not breaking down (yet), and every cast and crew member participating in the production. She would like to make a special thank you to Kendra Annika Gail Kannegaard Thornley for consistently cultivating the most welcoming space within the department, and for being her mentor, teacher, and friend. Without all of these things and people, you would not be seeing the spectacular production you are seeing today. She hopes you all enjoy the show and return to see the other amazing cast!",
-        "tech": "Ava Kreer is a current senior at Scotts Valley High School. This is her third year in, and eighth show with the department. For the past four shows, Ava has worked as the student producer for the department. Though she is sad to be leaving the department at the end of this show, she could not be more appreciative and grateful to be given this opportunity within the community. She would like to thank Mrs. K for having faith in her to fulfill the requirements of this position, and teaching her the ways of the professional theater world. Along with being the student producer, Ava also acts in the show as Grandma Addams and Dance Corps (see other bio). She would like to thank everyone for coming to support the show, and the numerous newspapers she reached out to who have agreed to promote our show! Additionally, she would like to thank V Nivelle for carrying on the role of student producer after she graduates, the position could not be in better hands."
-      } 
+        "cast": "Ava Kreer is a current senior at Scotts Valley High School. This is her third year in, and eighth show with the department. She is overjoyed to be ending her highschool theater career playing the role of Grandma Addams, alongside the amazing Tisa Sholohkman, as well as the role of Bar Wench ancestor on her off nights! Previously, Ava has been involved in Clue!, Urinetown, The Play That Goes Wrong, Our Place, Something Rotten, and Rumors. Most recently, she has performed as Chris Goreman in SVHS' Fall Play Rumors. Along with acting in the shows, Ava is grateful to hold the role of Student Producer (see other bio). She would like to thank her family for supporting her throughout all her productions, Sydney Clark, Namiko Miller, Audrey Lewerenz, Luke Thornley and Jackie Kannegaard for their delicious chili, her lovely car Jerry for not breaking down (yet), and every cast and crew member participating in the production. She would like to make a special thank you to Kendra Annika Gail Kannegaard Thornley for consistently cultivating the most welcoming space within the department, and for being her mentor, teacher, and friend. Without all of these things and people, you would not be seeing the spectacular production you are seeing today. She hopes you all enjoy the show and return to see the other amazing cast!",
+        "crew": "Ava Kreer is a current senior at Scotts Valley High School. This is her third year in, and eighth show with the department. For the past four shows, Ava has worked as the student producer for the department. Though she is sad to be leaving the department at the end of this show, she could not be more appreciative and grateful to be given this opportunity within the community. She would like to thank Mrs. K for having faith in her to fulfill the requirements of this position, and teaching her the ways of the professional theater world. Along with being the student producer, Ava also acts in the show as Grandma Addams and Dance Corps (see other bio). She would like to thank everyone for coming to support the show, and the numerous newspapers she reached out to who have agreed to promote our show! Additionally, she would like to thank V Nivelle for carrying on the role of student producer after she graduates, the position could not be in better hands."
+      }
     },
     "tisasholokhman": {
       "name": "Tisa Sholokhman",
@@ -263,7 +267,9 @@
       "name": "Gage Herendeen"
     },
     "lukethornley": {
-      "name": "Luke Thornley"
+      "name": "Luke Thornley",
+      "role": "(Construction Head, Lead Carpenter)",
+      "bio": "Luke Thornley is a veteran of the SVHS drama department, having graduated in 2011. Despite becoming a scientist, he has been coming back year after year to help design and build the sets to let the students shine with suitable backgrounds and to allow his wife (the Director) to show the world her top-tier directorial skills. Luke loves the gift and challenge of educating the students the proper way to use a drill, basic construction techniques, and how to be a team player."
     },
     "cooperherendeen": {
       "name": "Cooper Herendeen",
@@ -289,6 +295,19 @@
       "name": "Samantha Warner",
       "role": "(Co-House Manager, Co-Build manager)",
       "bio": "Samantha Warner is a Senior at Scotts Valley High. This is Samantha's ninth production at SVHS and she is delighted to help build the set once again. This is her last show and she is delighted to go with such a bang! She has participated in SVHS's productions of Clue!, Check Please!, the famed Urinetown, The Play That Goes Wrong, Our Place, Rumors, Abandoning Taylor and now Addams Family. She hopes you enjoy the show put on by her and her peers and would like to thank her parents for tolerating her, her grandmother for being supportive, and Mrs. Kannegaard for everything she has done. (She also would like to thank Huckleberry and her own dog for being her best friends and emotional support dogs but mostly Huckleberry because he was her Valentine for the third year in a row.) But most importantly she would like to thank everyone in the production because they have made this space a home and have become one truly amazing family! Thank you all for sharing this special moment with us!"
+    },
+    "betwixtjonescruz": {
+      "name": "Betwixt (Twix) Jones-Cruz",
+      "role": "(Makeup Crew)",
+      "bio": "This is Betwixt's 7th production with SVHS, and also their last. They were an actor between freshman and sophomore year, and this year have transferred to doing crew only. They are incredibly grateful and appreciative of everyone who has given them a space to grow and change in their three years of being in this department. Twix is graduating this year a year early, but will surely be back to visit! They would not have been able to make it this far without the support of Kendra Kannegaard-Thornley, their lovely parents/sibling, and their wonderful and amazing friends that take up their whole heart. thanks for seeing the show!"
+    },
+    "ianmchatton": {
+      "name": "Ian McHatton",
+      "role": "(Choreographer)",
+      "bio": "Ian McHatton is a freshman at Cabrillo where he studies Music Technology and Recording Arts. He has been doing theatre for eight years and dancing for ten. Something Rotten will be his first production with MCT but his eighteenth production overall. Some of his favorite previous roles include Harold Hill, Music Man; Hot Blades Harry, Urinetown; and Jack Kelly, Newsies. Ian's favorite hobbies include dance, piano, composition, and digital music production. He has also been choreographing for productions for the past 3 years and hopes to find that in his future endeavors. He is so excited to be a part of this production and this incredible community and hopes you enjoy the show!"
+    },
+    "colburnryan": {
+      "name": "Colburn Ryan"
     }
   }
 }

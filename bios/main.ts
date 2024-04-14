@@ -1,5 +1,5 @@
 import {
-  loadBioInfo,
+  loadPeopleInfo,
   initializePage,
   IBioStructure,
   peopleInfo,
@@ -22,7 +22,7 @@ window.onload = () => {
 
   initializePage();
 
-  loadBioInfo().then(async () => {
+  loadPeopleInfo().then(async () => {
     parsePeopleEntries();
   });
 };
@@ -44,7 +44,6 @@ function parsePeopleEntries() {
 
       for (let key in peopleInfo.people[person]) {
         let value = peopleInfo.people[person][key as keyof IBioStructure];
-        console.log(`${typeof value}, ${person}`);
         (
           curEntry
             .getElementsByClassName(`person_${key}`)

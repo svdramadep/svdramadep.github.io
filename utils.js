@@ -36,7 +36,7 @@ export function getPaletteVars(uri) {
         }
     });
 }
-export function loadBioInfo() {
+export function loadPeopleInfo() {
     return __awaiter(this, void 0, void 0, function* () {
         const response = yield fetch("/bios/data/addams/data.json", {
             cache: "no-store",
