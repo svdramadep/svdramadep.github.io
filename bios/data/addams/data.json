@@ -1,40 +1,41 @@
 {
   "order": {
     "actor": [
-      "miloanima",
       "kavinpugazhenthi",
-      "chloekitch",
+      "miloanima",
       "sydneyclark",
+      "chloekitch",
       "emmabrooke",
-      "masonfohl",
       "rachelecasagrande",
+      "masonfohl",
       "yanborodaenko",
       "danidunn",
       "vnivelle",
       "violetpalmer",
       "katedoherty",
-      "avakreer",
-      "tisasholokhman",
-      "willscree",
-      "raynev",
       "lillianlchapman",
       "trinitystenton",
       "jackpeterson",
       "kylegoode",
+      "willscree",
+      "raynev",
+      "avakreer",
+      "tisasholokhman",
       "namikomiller",
-      "baliwelch",
-      "evadewitt",
       "aaronalejandro",
-      "jaedenchamberlain",
-      "laureljames",
+      "evadewitt",
+      "baliwelch",
+      "haydibowsher",
       "liliabrunner",
       "gavincanderle",
-      "janessakovacevich",
-      "emmaoldham",
+      "jaedenchamberlain",
       "phoenixhardison",
-      "haydibowsher"
+      "laureljames",
+      "janessakovacevich",
+      "emmaoldham"
     ],
     "tech": [
+      "kendrakannegaardthornley",
       "kavinpugazhenthi",
       "atlashinkle",
       "leareed",
@@ -53,6 +54,11 @@
     ]
   },
   "people": {
+    "kendrakannegaardthornley": {
+      "name": "Kendra Kannegaard Thornley",
+      "role": "(Director)",
+      "bio": "Mrs K. is this production's extremely proud director. This is her tenth year directing shows at SVHS and her sixth year as the official drama teacher (where has the time gone?). She feels like she has found her passion working with these very talented students and is grateful every day for the opportunity. During her time here she has directed many shows including Little Shop of Horrors, Chicago, The Curious Savage, Newsies, Almost, Maine, Clue, Urinetown, The Play That Goes Wrong, Something Rotten!, and most recently, Rumors! Kendra is a proud alumni of SVHS and since graduating in 2012, she has received an AA degree in Theatre Arts from Cabrillo College, her BA in Theatre Arts & teaching credential from San Jose State. She is so proud of all the hardworking cast and crew she has had the honor of working with over the past few years at SVHS and is so inspired by their talent and dedication. She would like to thank the incomparable Todd, Lea, Ian, ANmi, Jaycee, Kyan, Sam, Sydney, Ava, Mason, Gage, Cooper, Jack, Asher, Colburn, Trinity, Violeta, Milo, Lyra, Ciel, Alex, Audrey, Twix, Emma, Tisa, Denise, the hardworking tech/crew and cast, her mom Jacque, her HUSBAND Luke, her incredible student director Kavin, and stage manager Atlas, without whom this production would not have happened! Enjoy the show! ❤️"
+    },
     "miloanima": {
       "name": "Milo Anima",
       "role": "(Gomez Addams/Soldier Ancestor (Dance Corps)/Co-Props Master)",
@@ -231,7 +237,7 @@
     "atlashinkle": {
       "name": "Atlas Hinkle",
       "role": "(Stage Manager)",
-      "bio": "Atlas Hinkle is a junior at Scotts Valley High School and the stage manager for The Addams Family. This is Atlas’s eighth production at the high school, as well as their eighth in the stage management department. Their previous productions include Clue, Check Please, Urinetown, The Play That Goes Wrong, Something Rotten, Rumors, and Deaths, Divas, & Dreams (Collection of Ten Minute Plays & Musicals). They would like to thank the production team: directors Kendra Kannegaard and Kavin Pugazhenti, musical directors Lea Reed and Sydney Clark, and choreographers Ian Mchatton and Nami Miller, and backstage manager Kyan Lundberg for being the most amazing production crew to work with. They would also like to thank the whole cast and crew for their continuous dedication and hard work throughout this show. They would also like to thank their friends Aaron Alejandro, Milo Anima, Dani Dunn, Mason Fohl, Ash Formoso, V Nivelle, and Violet Palmer for all being incredible people, and would like to thank them for helping them get through this journey with laughs and a world of support. And last but certainly not least, they would like to thank their parents for always supporting them throughout this production process. They hope you enjoy the show!"
+      "bio": "Atlas Hinkle is a junior at Scotts Valley High School and the stage manager for The Addams Family. This is Atlas's eighth production at the high school, as well as their eighth in the stage management department. Their previous productions include Clue, Check Please, Urinetown, The Play That Goes Wrong, Something Rotten, Rumors, and Deaths, Divas, & Dreams (Collection of Ten Minute Plays & Musicals). They would like to thank the production team: directors Kendra Kannegaard and Kavin Pugazhenti, musical directors Lea Reed and Sydney Clark, and choreographers Ian Mchatton and Nami Miller, and backstage manager Kyan Lundberg for being the most amazing production crew to work with. They would also like to thank the whole cast and crew for their continuous dedication and hard work throughout this show. They would also like to thank their friends Aaron Alejandro, Milo Anima, Dani Dunn, Mason Fohl, Ash Formoso, V Nivelle, and Violet Palmer for all being incredible people, and would like to thank them for helping them get through this journey with laughs and a world of support. And last but certainly not least, they would like to thank their parents for always supporting them throughout this production process. They hope you enjoy the show!"
     },
     "kyanlundberg": {
       "name": "Kyan Lundberg",
