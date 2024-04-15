@@ -41,6 +41,7 @@
       "leareed",
       "sydneyclark",
       "ianmchatton",
+      "namikomiller",
       "lyraalers",
       "cielschnell",
       "alexmoriarty",
@@ -51,6 +52,7 @@
       "betwixtjonescruz",
       "emmarozeboom",
       "samanthawarner",
+      "lukethornley",
       "cooperherendeen",
       "gageherendeen"
     ]
@@ -126,7 +128,7 @@
     },
     "katedoherty": {
       "name": "Kate Doherty",
-      "role": "(Nurse Ancestor/ Pugsley Addams)",
+      "role": "(Nurse Ancestor/ Pugsley Understudy)",
       "bio": "Kate Doherty is a freshman at Scotts Valley High School, and is so excited to be in her third production with SVHS. She has played Claire Ganz in Rumors and Fanny in the Winter Show, and now feels so lucky to perform in Addams! Kate has always loved theater and believes it's an amazing way to connect with people and have fun on stage. She is so grateful for all her incredible cast mates and all the friendships she has made this year through drama. Kate would like to thank her family and friends for running lines with her and always supporting her, especially when she sings super loudly at unnecessary times. She hopes you enjoy SVHSs production of The Addams Family!"
     },
     "avakreer": {
@@ -178,8 +180,15 @@
     },
     "namikomiller": {
       "name": "Namiko Miller",
-      "role": "(Bride Ancestor, Dance Captain, Dance and Tap Corps, and Student Choreographer)",
-      "bio": "Namiko (Nami) Miller (she/her) is a Senior at SVHS, she is the Student Choreographer for Addams Family as well as performing as bride ancestor and dance captain. Nami has participated in SVHS's “Deaths, Divas, and Dreams” (2024) as student producer, SVHS's “Something Rotten” (2023) as assistant choreographer, dance captain, dance and tap corps, and troupe member, and SVHS's “Urinetown” (2022) as dance corps and poor ensemble. Along with participating in the shows with the drama department, Nami runs social media alongside Emma Brooke for the Drama Department. Nami has been dancing and performing since she was 10, and has danced in Agape Dance Academy's productions of The Nutcracker and their June shows since she was 13, and is currently dancing with Agape Dance Academy. This is Nami's last year with the Drama Department and words cannot explain the love she has for this department and the impact it had on her throughout highschool. She is so unbelievably proud of this show and this cast and crew. She wants to give a special shout out to Mrs. Kannegaard, Atlas, Kavin, Ian, Lea, Sydney, Ava, Audrey, Bali, and the spectacular cast and crew she had the privilege to work with! Enjoy this amazing show!"
+      "pronouns": "she/her",
+      "role": {
+        "cast": "(Bride Ancestor, Dance Captain, Dance and Tap Corps)",
+        "crew": "(Student Choreographer)"
+      },
+      "bio": {
+        "cast": "Namiko (Nami) Miller is a Senior at SVHS, she is the Student Choreographer for Addams Family as well as performing as bride ancestor and dance captain. Nami has participated in SVHS’s “Deaths, Divas, and Dreams” (2024) as student producer, SVHS’s “Something Rotten” (2023) as assistant choreographer, dance captain, dance and tap corps, and troupe member, and SVHS’s “Urinetown” (2022) as dance corps and poor ensemble. Along with participating in the shows with the drama department, Nami runs social media alongside Emma Brooke for the Drama Department. Nami has been dancing and performing since she was 10, and has danced in Agape Dance Academy’s productions of The Nutcracker and their June shows since she was 13, and is currently dancing with Agape Dance Academy. This is Nami’s last year with the Drama Department and words cannot explain the love she has for this department and the impact it had on her throughout highschool. She is so unbelievably proud of this show and this cast and crew. She wants to give a special shout out to Mrs. Kannegaard, Atlas, Kavin, Ian, Lea, Sydney, Ava, Audrey, Bali, and the spectacular cast and crew she had the privilege to work with! Enjoy this amazing show!",
+        "crew": "Namiko (Nami) Miller is a Senior at SVHS, she is the Student Choreographer for Addams Family and this is her first show she has choreographed for. Nami has been dancing for eight years and practicing theater for three years. Firstly, she wants to highlight the incomparable Melanie and Conrad Useldinger and Kelly Spindler-Beach for being the reason why Nami is a performer in the first place. She cannot thank them enough for all they have done for her as a dancer, performer, and person. Secondly, Nami would like to thank the amazing Ian McHatton, for being the whole reason she was able to step into her job as student choreographer. She is so grateful she had the privilege of working alongside the great talent that is Ian and cannot thank him enough for giving her the opportunity of a lifetime. Thirdly, she would like to thank the lovely dance corps for being the best dancers that she could ever possibly work with, there is not a single other group of people that could create as big of a performance as these individuals can. Finally, Nami would like to bestow the greatest of thanks to Mrs. Kendra Kannegaard for seeing her capability as a dancer and as a choreographer and for allowing Nami to step into the role as student choreographer. She wants to thank Mrs. K for showing her such great kindness all throughout highschool and being a lovely mentor, director, and friend. "
+      }
     },
     "baliwelch": {
       "name": "Bali Welch",
@@ -245,8 +254,9 @@
     },
     "kyanlundberg": {
       "name": "Kyan Lundberg",
+      "pronouns": "she/her",
       "role": "(Backstage Manager)",
-      "bio": "Kyan Lundberg is a senior at Scotts Valley  High School. This is Kyan's eighth show with the Drama Department, Kyan is very excited to be the Backstage Manager again! Kyan participated in Clue!, Check Please!, and Urinetown as a member of the sound department, The Play That Goes Wrong, which she directed, Our Place, Something Rotten, Rumors, Deaths Divas and Dreams, and now Addams Family as the Backstage Manager! Kyan would like to thank her sister for making her laugh and listening to her rant, she would like to thank her parents and grandparents  for supporting her in what she wants to do, she would like to thank her friends, Conner, Twix, Violet, Sam, Alex, Ava, Bali, Milo, and many many more for always making her laugh and being a voice of reason, she would like to thank Ethan and Leo for being the best backstage manager trainees she could have asked for, she would like to thank Conner, Ryan, Cheyenne, Max, Shino, and Nic for being such an amazing backstage crew, and lastly she would like to thank Mrs. Kannegaard for making these shows possible and for loving every member of the department unconditionally. Kyan hopes you enjoy the show!"
+      "bio": "Kyan Lundberg is a senior at Scotts Valley  High School. This is Kyan's ninth show with the Drama Department, Kyan is very excited to be the Backstage Manager again! Kyan participated in Clue!, Check Please!, and Urinetown as a member of the sound department, The Play That Goes Wrong, which she directed, Our Place, Something Rotten, Rumors, Deaths Divas and Dreams, and now Addams Family as the Backstage Manager! Kyan would like to thank her sister for making her laugh and listening to her rant, she would like to thank her parents and grandparents  for supporting her in what she wants to do, she would like to thank her friends, Conner, Twix, Violet, Sam, Alex, Ava, Bali, Milo, and many many more for always making her laugh and being a voice of reason, she would like to thank Ethan and Leo for being the best backstage manager trainees she could have asked for, she would like to thank Conner, Ryan, Cheyenne, Max, Shino, and Nic for being such an amazing backstage crew, and lastly she would like to thank Mrs. Kannegaard for making these shows possible and for loving every member of the department unconditionally. Kyan hopes you enjoy the show!"
     },
     "lyraalers": {
       "name": "Lyra Alers",
